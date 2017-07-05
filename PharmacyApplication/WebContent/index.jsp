@@ -12,8 +12,8 @@
 </head>
 <body>
 <%
-		String Message = request.getParameter("Message");
-		if (Message == null) Message="";
+		String Message = "";//request.getParameter("Message");
+		//if (Message == null) Message="";
 %>
 <div class="container" align="center" style="width: 900px;height: 350px;margin-top: 20px;background-color:#D3D3D3">
   <%if(Message != null && Message != ""){ %>
